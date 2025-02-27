@@ -62,5 +62,7 @@ body {
     font-weight: bold; /* Make it bold */
     padding: 10px 20px; /* Add spacing */
     display: inline-block; /* Helps with spacing */
+    color: #66206c; /* Change to any color */
+    /* text-decoration: none */
 }
 
