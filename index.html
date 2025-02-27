@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #96b2cb;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+        }
+        .profile {
+            padding: 20px;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .resume-section {
+            margin: 20px 0;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        .project img {
+            width: 10%;
+            height: 50vh;
+            border-radius: 5px;
+        }
+        .project a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Puppala Priyamvadha</h1>
+            <p>2024 Graduate (AI&DS)<br><br>Python | Django | SQL | Web Development</p>
+            <div class="social-icons">
+                <a href="#"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <h2>Connect with Me</h2>
+<div class="social-links">
+    <a href="https://github.com/Priyamvadha163" target="_blank">GitHub</a> |
+    <a href="https://www.linkedin.com/in/puppala-priyamvadha-372b6521b" target="_blank">LinkedIn</a>
+</div>
+
+
+        <h2><u>Resume</u></h2>
+        <div class="resume-section">
+            <a href="Priyamvadha_Fresher_Resume.pdf" download>Download Resume</a>
+        </div>
+
+        <h1><u>Projects</u></h1>
+        <div class="projects">
+            <div class="project">
+                <a href="project1.html"><button>
+                    <p>Depression Detection Using NLP</p>
+                </button>
+                </a>
+            </div>
+            <div class="project">
+                <a href="project2.html">
+                    <button><p>Employee Mental Stress Ability using ML</p></button>
+                    
+                </a>
+            </div>
+            <div class="project">
+                <a href="project3.html">
+                    <button><p>Whatssapp Chatbot Using Python</p></button>
+                    
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
