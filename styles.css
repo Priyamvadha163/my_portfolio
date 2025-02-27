@@ -57,3 +57,10 @@ body {
 .project img {
     width: 80%; /* Reduce project images */
 }
+.resume-link {
+    font-size: 20px; /* Increase text size */
+    font-weight: bold; /* Make it bold */
+    padding: 10px 20px; /* Add spacing */
+    display: inline-block; /* Helps with spacing */
+}
+
